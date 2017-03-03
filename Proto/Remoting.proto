@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+package Remoting;
+import "Messages.proto";
+option csharp_namespace = "Proto.Remoting";
+
+service Service {
+  rpc Request (Messages.Ping) returns (Messages.Pong) {};
+  rpc Stream (stream Messages.Ping) returns (stream Messages.Pong) {};
+}

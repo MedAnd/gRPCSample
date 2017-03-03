@@ -1,0 +1,34 @@
+﻿{
+  "title": "Server",
+  "description": "Server",
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true,
+    "compile": {
+      "exclude": [
+        "PackageRoot"
+      ]
+    }
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+    "Proto": "1.0.0-*",
+    "System.Interactive.Async": "3.1.1"
+  },
+
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+      }
+    }
+  },
+
+  "runtimes": {
+    "win7-x64": {}
+  }
+
+}
+

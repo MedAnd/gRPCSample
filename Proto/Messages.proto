@@ -1,0 +1,6 @@
+﻿syntax = "proto3";
+package Messages;
+option csharp_namespace = "Proto.Messages";
+
+message Ping {}
+message Pong {}
